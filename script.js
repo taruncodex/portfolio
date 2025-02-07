@@ -65,7 +65,7 @@ form.addEventListener("submit", async (e) => {
 
 function downloadResume(event) {
     // Open the PDF in a new tab
-    const newTab = window.open("./images/TarunRathore-NodeJSDeveloper-CBl6_page-0001.jpg", "_blank");
+    const newTab = window.open("./images/TarunRathore-NodeJSDeveloper-jzUk.pdf", "_blank");
 
     if (newTab) {
         newTab.focus(); // Bring the new tab to focus
