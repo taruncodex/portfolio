@@ -75,7 +75,7 @@ function downloadResume(event) {
 
     // Trigger download
     const link = document.createElement("a");
-    link.href = "./images/TarunRathore-NodeJSDeveloper-CBl6_page-0001.jpg";
+    link.href = "./images/TarunRathore-NodeJSDeveloper-jzUk.pdf";
     link.download = "TarunRathore-Resume.pdf"; // Optional: set a custom filename
     document.body.appendChild(link);
     link.click();
