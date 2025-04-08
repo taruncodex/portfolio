@@ -42,11 +42,11 @@
   <body
     class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white"
   >
-    <!-- <div
+    <div
       class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden"
     >
       <img src="./images/header-bg-color.png" class="w-full" />
-    </div> -->
+    </div>
 
     <nav
       class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
@@ -66,6 +66,10 @@
         <li><a href="#contact">Contact me</a></li>
       </ul>
       <div class="flex items-center gap-4">
+        <button onclick="toggleTheme()">
+          <img src="./images/moon_icon.png" class="w-6 dark:hidden" />
+          <img src="./images/sun_icon.png" class="w-6 hidden dark:block" />
+        </button>
         <a
           href="#contact"
           class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full m1-4 font-Ovo dark:border-white/50"
@@ -107,7 +111,7 @@
         <li><a href="#contact" onclick="closemenu()">Contact me</a></li>
       </ul>
     </nav>
-    <!--------header---------------------------------------->
+    <!-----------------------------header---------------------------------------->
     <div
       class="w-11/12 max-w-3xl text-center mx-auto flex flex-col items-center justify-center gap-4 py-20"
     >
