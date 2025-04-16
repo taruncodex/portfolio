@@ -65,7 +65,7 @@ form.addEventListener("submit", async (e) => {
 
 function downloadResume(event) {
     // Open the PDF in a new tab
-    const newTab = window.open("./images/TarunRathore-NodeJSDeveloper-jzUk.pdf", "_blank");
+    const newTab = window.open("./images/MyResume.pdf", "_blank");
 
     if (newTab) {
         newTab.focus(); // Bring the new tab to focus
@@ -75,8 +75,8 @@ function downloadResume(event) {
 
     // Trigger download
     const link = document.createElement("a");
-    link.href = "./images/TarunRathore-NodeJSDeveloper-jzUk.pdf";
-    link.download = "TarunRathore-Resume.pdf"; // Optional: set a custom filename
+    link.href = "./images/MyResume.pdf";
+    link.download = "MYResume.pdf"; // Optional: set a custom filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
