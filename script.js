@@ -65,7 +65,7 @@ form.addEventListener("submit", async (e) => {
 
 function downloadResume(event) {
     // Open the PDF in a new tab
-    const newTab = window.open("./images/NewResume.pdf", "_blank");
+    const newTab = window.open("./pdfs/Tarun_Rathore's_Resume.pdf", "_blank");
 
     if (newTab) {
         newTab.focus(); // Bring the new tab to focus
@@ -75,7 +75,7 @@ function downloadResume(event) {
 
     // Trigger download
     const link = document.createElement("a");
-    link.href = "./images/NewResume.pdf";
+    link.href = "./pdfs/Tarun_Rathore's_Resume.pdf";
     link.download = "NewResume.pdf"; // Optional: set a custom filename
     document.body.appendChild(link);
     link.click();
